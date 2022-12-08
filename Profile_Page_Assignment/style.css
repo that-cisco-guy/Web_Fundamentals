@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: comic sans ms;
+}
+
+.top_banner{
+    background-color: black;
+    color: white;
+    font-family: comic sans ms;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    margin: 10px;
+}
+
+button{
+    background-color: teal;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    font-family: comic sans ms;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.profile_header{
+    background-color: aqua;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.header{
+    background-color: darkgray;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#edit{
+    color:darkblue;
+}
+
+.sm_icon{
+    height: 20px;
+}
+
+.lg_icon{
+    height: 190px;
+}
+
+.main{
+    width: 1080px;
+    margin: auto;
+    display: flex;
+}
+
+.left_column{
+    flex: 2;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.right_column{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+.profile_container{
+    border: 1px solid gray;
+
+}
+
+.request_container{
+    border: 1px solid gray;
+    
+}
+
+.connection_container{
+    border: 1px solid gray;
+
+}
+
+.education_container{
+    border: 1px solid gray;
+
+}

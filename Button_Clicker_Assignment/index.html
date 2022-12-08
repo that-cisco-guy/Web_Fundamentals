@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top_ban">
+        <div>
+            <h1>Dojonary</h1>
+        </div>
+        <div>
+            <input type="text" placeholder="Search">
+        </div>
+        <div>
+            <button type="button" class="login_button" onclick="logout(this)">Login</button>
+        </div>
+    </div>
+    <!-- Main Container -->
+    <div class="main">
+        <!-- Left Column -->
+        <div class="left_col">
+            <div class="def_1">
+                <div class="def_left">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>Plural: ninja</p>
+                    <button type="button" class="like_but"  onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="def_right">
+                    <p>A practitioner in the <br> Japanese art of ninjutsu.</p>
+                </div>
+            </div>
+            <div class="def_2">
+                <div class="def_left">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>Plural: ninja</p>
+                    <button type="button" class="like_but" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="def_right">
+                    <p>A programmer who breaks <br> down problems with zen-like <br> focus.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Right Column -->
+        <div class="right_col">
+            <div class="add_def">
+                <h3>Dojonary is defined by YOU</h3>
+                <button type="button" class="add_def_button" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

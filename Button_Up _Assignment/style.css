@@ -1,0 +1,26 @@
+div{
+    margin: 10px;
+}
+
+.search{
+    border: 2px solid #00956b;
+    border-radius: 25px;
+    padding: 10px 50px;
+    color: #00956b;
+}
+
+.plus{
+    background-color: #00956b;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #00956b;
+    padding: 10px 15px;
+}
+
+.create{
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    padding: 5px 50px;
+    box-shadow: 5px 5px black;
+}

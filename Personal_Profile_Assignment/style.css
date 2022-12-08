@@ -1,0 +1,14 @@
+#message{
+    vertical-align: top;
+    margin: 5px;
+}
+
+#head th{
+    border: solid black;
+    margin: 0px;
+}
+
+#submit{
+    margin: 5px;
+}
+/*  */

@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    color: white;
+}
+
+.col{
+    background-color: teal;
+    display: flex;
+    flex: 1;
+    margin: 0px 10px 0px 10px;
+}
+
+.col-2{
+    background-color: teal;
+    display: flex;
+    flex: 2;
+    margin: 0px 10px 0px 10px;
+}
+
+.col-3{
+    background-color: teal;
+    display: flex;
+    flex: 3;
+    margin: 0px 10px 0px 10px;
+}
