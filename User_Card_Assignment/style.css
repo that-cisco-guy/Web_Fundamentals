@@ -1,15 +1,10 @@
-/* CSS Reset */
-
 * {
     margin: 0;
     padding: 0;
 }
 
-/* styles to apply to body */
-
 body {
-    background-color: #f3f3f3;
-    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid red; */
 }
 
 .flex-container {
@@ -18,27 +13,30 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border: 2px solid red; */
 }
 
 .user-card {
     width: 100%;
-    background-color: #fff;
-    border: 2px solid #999;
+    background-color: white;
+    border: 2px solid silver;
     margin-bottom: 20px;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 10;
     overflow: hidden;
+    /* border: 2px solid red; */
 }
 
 .card-header {
-    background-color: #17a2b8;
+    background-color:teal;
     height: 175px;
     margin-bottom: 70px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .card-body {
     padding: 20px;
+    /* border: 2px solid red; */
 }
 
 .card-body h1, 
@@ -46,21 +44,25 @@ body {
 .card-body h3,
 .card-body p {
     margin: 20px 0px;
+    /* border: 2px solid red; */
 }
 
 .avatar-m {
     border-radius: 50%;
-    background-color: #fff;
+    background-color: white;
     height: 190px;
     padding: 5px;
     margin-top: 20px;
     margin-left: 20px;
+    /* border: 2px solid red; */
 }
 
 .icon-s {
     height: 20px;
+    /* border: 2px solid red; */
 }
 
 a {
-    color: #3a81e6;
+    color: blue
+    /* border: 2px solid red; */
 }
