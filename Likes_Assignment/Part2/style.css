@@ -11,8 +11,29 @@
 	margin: 0;
 	font-family: comic sans ms;
 	}
-/* main box */
-	#main{
+
+/* Main Body */
+	#mainBody{
+		display: flex;
+		margin: auto;
+		justify-content: center;
+	}
+
+/* Left Column */
+	.mainUser{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		border: 2px solid black;
+		width: 150px;
+		height: 200px;
+		padding: 20px;
+		margin-top: 40px;
+		margin-right: 10px;
+	}
+	/* Right Column */
+	.userBox{
 		border: 2px solid black;
 		margin: auto;
 		margin-top: 40px;
@@ -23,19 +44,19 @@
 		flex-direction: column;
 		justify-content: space-around;
 	}
-/* inside box */
+/* inside box user boxes */
 	#top{
 		display: flex;
 		justify-content: space-around;
 		align-items: baseline;
 	}
 
-	h1{
+	h2{
 		margin-right: 40px;
 		margin-left: -30px;
 	}
 
-	#btn{
+	#btn1, #btn2, #btn3{
 		border: 2px solid black;
 		box-shadow: 4px 4px black;
 		width: 80px;
