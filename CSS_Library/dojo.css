@@ -1,0 +1,42 @@
+    /* CSS Reset */
+    * {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+    /* Fixed container class that will"auto-center" itself */
+    .btn-primary {
+    width: 150px;
+    background-color: #2b78e4;
+    color: #fff;
+    border: 2px solid #000;
+    box-shadow: 3px 3px black;
+    }
+    /* Button with shadow */
+    .btn {
+    width: 150px;
+    background-color: #2b78e4;
+    color: #fff;
+    border: 2px solid #000;
+    box-shadow: 3px 3px black;
+}
+    /* Display children in row */
+    .row {
+    display: flex;
+}
+    /* Nav Bar */
+    .nav {
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    width: 1000px; /* for styling purposes */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
