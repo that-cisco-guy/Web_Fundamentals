@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navBar">
+        <h1>DojoWeather</h1>
+        <div>
+            <a href="#" class="city" onclick="cityAlert()">Burbank</a>
+            <a href="#" class="city" onclick="cityAlert()">Chicago</a>
+            <a href="#" class="city" onclick="cityAlert()">Dallas</a>
+        </div>
+    </div>
+    <!-- header -->
+    <div id="header">
+        <h2>San Jose</h2>
+        <span><label for="tempScale">show tempurature in</label>
+        <select name="tempScale" id="tempScale">
+            <option value="C">C</option>
+            <option value="F">F</option>
+        </select>
+        </span>
+    </div>
+    <!-- main body -->
+    <div id="main">
+        <div class="dayBox" id="today">
+            <div class="day">
+                <p>Today</p>
+            </div>
+            <div class="dayImg">
+                <img src="assets/some_rain.png" alt="some_rain">
+            </div>
+            <div class="dayDisc">
+                <p>some rain</p>
+            </div>
+            <div class="temps">
+                <p><span class="high">24</span>18</p>
+            </div>
+        </div>
+        <div class="dayBox" id="tomorrow">
+            <div class="day">
+                <p>Tomorrow</p>
+            </div>
+            <div class="dayImg">
+                <img src="assets/some_sun.png" alt="some_sun">
+            </div>
+            <div class="dayDisc">
+                <p>some sun</p>
+            </div>
+            <div class="temps">
+                <p><span class="high">27</span>19</p>
+            </div>
+        </div>
+        <div class="dayBox" id="friday">
+            <div class="day">
+                <p>Friday</p>
+            </div>
+            <div class="dayImg">
+                <img src="assets/some_clouds.png" alt="some_clouds">
+            </div>
+            <div class="dayDisc">
+                <p>some clouds</p>
+            </div>
+            <div class="temps">
+                <p><span class="high">21</span>16</p>
+            </div>
+        </div>
+        <div class="dayBox" id="saturday">
+            <div class="day">
+                <p>Saturday</p>
+            </div>
+            <div class="dayImg">
+                <img src="assets/some_sun.png" alt="some_sun">
+            </div>
+            <div class="dayDisc">
+                <p>some sun</p>
+            </div>
+            <div class="temps">
+                <p><span class="high">26</span>21</p>
+            </div>
+        </div>
+    </div>
+    <!-- cookie alert -->
+    <div id="popUp">
+        <div>
+            <img src="assets/cookie.png" alt="cookie">
+        </div>
+        <div>
+            <p>Stop! Cookie time</p>
+            <p>We use cookies (sadly not the edible one) to personalize <br>
+            content and ads, to provide social media features and <br>
+            analyse our traffic. <a href="#">Read more...</a>
+            </p>
+        </div>
+        <button type="button">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
