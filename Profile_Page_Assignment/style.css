@@ -1,14 +1,21 @@
 /* CSS Reset */
 
 * {
-    margin: 0;
-    padding: 0;
-}
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
 
 /* styles to apply to body */
 
 body {
-    background-color: #f3f3f3;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -25,8 +32,8 @@ body {
 
 .nav {
     height: 80px;
-    background-color: #222;
-    color: #fff;
+    background-color: black;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -37,20 +44,20 @@ body {
 }
 
 .nav-links a {
-    color: #f3f3f3;
+    color: white;
     text-decoration: none;
 }
 
 .nav-links a.active {
-    color: #fff;
+    color: white;
     font-weight: bold;
 }
 
 .btn {
     height: 30px;
     width: 100px;
-    color: #fff;
-    background-color: #17a2b8;
+    color: white;
+    background-color: teal;
     border: none;
     font-size: 1rem;
     font-weight: bold;
@@ -70,8 +77,8 @@ body {
 }
 
 .card {
-    background-color: #fff;
-    border: 2px solid #999;
+    background-color: white;
+    border: 2px solid grey;
     margin-bottom: 20px;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -81,8 +88,8 @@ body {
 
 .card-header {
     padding: 20px;
-    background-color: #222;
-    color: #f3f3f3;
+    background-color: black;
+    color: white;
 }
 
 .card-header {
@@ -102,14 +109,14 @@ body {
 }
 
 .user-card .card-header {
-    background-color: #17a2b8;
+    background-color: teal;
     height: 85px;
     margin-bottom: 70px;
     display: block;
 }
 
 .card-footer {
-    border-top: 2px solid #999;
+    border-top: 2px solid grey;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -117,7 +124,7 @@ body {
 
 .avatar-m {
     border-radius: 50%;
-    background-color: #fff;
+    background-color: white;
     height: 190px;
     padding: 5px;
 }
@@ -127,11 +134,11 @@ body {
 }
 
 a {
-    color: #3a81e6;
+    color: blue;
 }
 
 .dates {
-    color: #777;
+    color: grey;
 }
 
 .card-list {
@@ -184,7 +191,7 @@ a {
     height: 24px;
     line-height: 24px;
     padding: 0 10px;
-    background-color: #999;
+    background-color:grey;
     border-radius: 12px;
     margin-right: 10px;
 }
