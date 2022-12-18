@@ -3,7 +3,7 @@
 * {
 	vertical-align: baseline;
 	font-weight: inherit;
-	font-family: inherit;
+	font-family: comic sans ms;
 	font-style: inherit;
 	font-size: 100%;
 	border: 0 none;
@@ -11,8 +11,6 @@
 	padding: 0;
 	margin: 0;
 	}
-
-/* styles to apply to body */
 
 body {
     background-color: white;
@@ -148,7 +146,7 @@ a {
 }
 
 .card-list-item, 
-.card-list-item > * {
+.card-list-item  {
     display: flex;
     align-items: center;
 }
