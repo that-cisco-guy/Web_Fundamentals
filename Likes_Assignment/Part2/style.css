@@ -12,6 +12,28 @@
 	font-family: comic sans ms;
 	}
 
+/* Top Div */
+	#topHeader{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		/* border: 1px solid red; */
+	}
+
+	#yourFeed {
+		margin-top: 10px;
+		font-size: 25px;
+	}
+/* Header Bar */
+	#headBar {
+		background-color: #333333;
+		color: #ffffff;
+		height: 80px;
+		width: 700px; 
+		margin: 0 auto;
+		font-size: 50px;
+	}
+
 /* Main Body */
 	#mainBody{
 		display: flex;
