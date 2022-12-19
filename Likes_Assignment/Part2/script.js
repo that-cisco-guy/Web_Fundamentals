@@ -10,18 +10,18 @@ var likeCountElement3 = document.querySelector("#likes3");
 
 function addLike1(){
     likeCount1++;
-    likeCountElement1.innerText = likeCount1 + "like(s)"
+    likeCountElement1.innerText = likeCount1 + " like(s)"
     // console.log(likeCount1);
 }
 
 function addLike2(){
     likeCount2++;
-    likeCountElement2.innerText = likeCount2 + "like(s)"
+    likeCountElement2.innerText = likeCount2 + " like(s)"
     // console.log(likeCount2);
 }
 
 function addLike3(){
     likeCount3++;
-    likeCountElement3.innerText = likeCount3 + "like(s)"
+    likeCountElement3.innerText = likeCount3 + " like(s)"
     // console.log(likeCount3);
 }
