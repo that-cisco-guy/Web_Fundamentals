@@ -11,10 +11,10 @@
     <!-- navbar -->
     <div id="navBar">
         <h1>DojoWeather</h1>
-        <div>
-            <a href="#" class="city" onclick="cityAlert()">Burbank</a>
-            <a href="#" class="city" onclick="cityAlert()">Chicago</a>
-            <a href="#" class="city" onclick="cityAlert()">Dallas</a>
+        <div id="links">
+            <a href="#" class="city" onclick="cityAlert(this)">Burbank</a>
+            <a href="#" class="city" onclick="cityAlert(this)">Chicago</a>
+            <a href="#" class="city" onclick="cityAlert(this)">Dallas</a>
         </div>
     </div>
     <!-- header -->
@@ -27,63 +27,44 @@
         </select>
         </span>
     </div>
+    <hr>
     <!-- main body -->
     <div id="main">
         <div class="dayBox" id="today">
-            <div class="day">
-                <p>Today</p>
-            </div>
-            <div class="dayImg">
-                <img src="assets/some_rain.png" alt="some_rain">
-            </div>
-            <div class="dayDisc">
-                <p>some rain</p>
-            </div>
-            <div class="temps">
-                <p><span class="high">24</span>18</p>
-            </div>
+                <p class="day">Today</p>
+                <img src="assets/some_rain.png" alt="some_rain" class="dayImg">
+                <p class="dayDisc">some rain</p>
+                <div class="temps">
+                    <p class="high">24</p>
+                    <p class="low">18</p>
+                </div>
         </div>
         <div class="dayBox" id="tomorrow">
-            <div class="day">
-                <p>Tomorrow</p>
-            </div>
-            <div class="dayImg">
-                <img src="assets/some_sun.png" alt="some_sun">
-            </div>
-            <div class="dayDisc">
-                <p>some sun</p>
-            </div>
-            <div class="temps">
-                <p><span class="high">27</span>19</p>
-            </div>
+                <p class="day">Tomorrow</p>
+                <img src="assets/some_sun.png" alt="some_sun" class="dayImg">
+                <p class="dayDisc">some sun</p>
+                <div class="temps">
+                    <p class="high">27</p>
+                    <p class="low">19</p>
+                </div>
         </div>
         <div class="dayBox" id="friday">
-            <div class="day">
-                <p>Friday</p>
-            </div>
-            <div class="dayImg">
-                <img src="assets/some_clouds.png" alt="some_clouds">
-            </div>
-            <div class="dayDisc">
-                <p>some clouds</p>
-            </div>
-            <div class="temps">
-                <p><span class="high">21</span>16</p>
-            </div>
+                <p class="day">Friday</p>
+                <img src="assets/some_clouds.png" alt="some_clouds" class="dayImg">
+                <p class="dayDisc">some clouds</p>
+                <div class="temps">
+                    <p class="high">21</p>
+                    <p class="low">16</p>
+                </div>
         </div>
         <div class="dayBox" id="saturday">
-            <div class="day">
-                <p>Saturday</p>
-            </div>
-            <div class="dayImg">
-                <img src="assets/some_sun.png" alt="some_sun">
-            </div>
-            <div class="dayDisc">
-                <p>some sun</p>
-            </div>
-            <div class="temps">
-                <p><span class="high">26</span>21</p>
-            </div>
+                <p class="day">Saturday</p>
+                <img src="assets/some_sun.png" alt="some_sun" class="dayImg">
+                <p class="dayDisc">some sun</p>
+                <div class="temps">
+                    <p class="high">26</p>
+                    <p class="low">21</p>
+                </div>
         </div>
     </div>
     <!-- cookie alert -->
